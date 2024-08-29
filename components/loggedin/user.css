@@ -1,0 +1,105 @@
+.loggedIn_header {
+    height: 120px;
+    background-color: rgb(179, 179, 131);
+    width: 100%;
+    border-bottom: 2px solid rgb(163, 163, 124);
+    position: relative;
+
+}
+
+.loginAck {
+    height: 10px;
+    font-style: italic;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.profileCompleteness {
+    float: right;
+    margin-left: 20px;
+    margin: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.input_form_update {
+    margin-top: 150px;
+    height: 300px;
+    width: 900px;
+    margin-left: 10%;
+}
+
+.update_input_fields {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.update_input_fields_1 {
+    float: right;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.submit_button {
+    height: 35px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    color: white;
+    margin-left: 45%;
+    background-color: brown;
+    border-radius: 4px;
+    margin-top: 4%;
+    cursor: default;
+}
+
+.submit_button:hover {
+    background-color: rgb(118, 29, 29);
+}
+
+.verify_Email_button {
+    margin: 25px;
+    display: grid;
+    place-items: center;
+    height: 35px;
+    width: 120px;
+    background-color: brown;
+    color: white;
+    cursor: default;
+    border-radius: 5px;
+}
+
+.verify_Email_button:hover {
+    background-color: rgb(110, 29, 29);
+}
+
+.user_verified_message {
+    color: green;
+    margin: 25px;
+}
+
+.logout_button {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 10px;
+    background-color: brown;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    cursor: default;
+
+}
+
+.logout_button:hover {
+    background-color: rgb(124, 31, 31);
+}

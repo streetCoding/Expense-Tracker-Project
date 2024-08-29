@@ -1,0 +1,184 @@
+.custom-toggle {
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100px;
+    background-color: black !important;
+    border: none !important;
+
+}
+
+.custom-toggle:hover {
+
+    width: 100px;
+}
+
+.custom-menu {
+    width: 100px !important;
+    background-color: rgb(203, 192, 192) !important;
+    z-index: 10 !important;
+}
+
+.expenses_form {
+    margin-left: 40px;
+}
+
+.expenses_form,
+.money_spent,
+.expense_description,
+.expense_dropdown {
+    display: inline-block;
+}
+
+.expense_dropdown {
+    transform: translate(-10px, -10px);
+    z-index: 10;
+
+}
+
+.add_expense_button {
+    display: inline-flex;
+
+    background-color: brown;
+    color: white;
+    height: 45px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: default;
+
+}
+
+.add_expense_button:hover {
+    background-color: rgb(109, 27, 27);
+}
+
+.expense_data_intro {
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(189, 188, 188);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.expense_data_intro_serialNo {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    border-right: 2px solid white;
+}
+
+.expense_data_intro_expenseMoney {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    border-right: 2px solid white;
+}
+
+.expense_data_intro_expenseDes {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+    border-right: 2px solid white;
+}
+
+.expense_data_intro_expenseCategory {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border-right: 2px solid white;
+
+
+}
+
+.expense_data_intro_expenseAction {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+}
+
+.expense_data_list_container {
+    width: 90%;
+    width: 90%;
+    margin: auto;
+    height: 90px;
+    background-color: rgb(235, 229, 229);
+    border-radius: 10px;
+}
+
+.expense_data_list_container_noExpense {
+    position: absolute;
+    margin-left: 45%;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.expense_item_list {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(235, 229, 229);
+    height: 90px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.expense_item_list_serialNo {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    border-right: 2px solid white;
+}
+
+.expense_item_list_MoneySpent {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    border-right: 2px solid white;
+}
+
+.expense_item_list_expenseDescription {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+    border-right: 2px solid white;
+}
+
+.expense_item_list_expenseCategory {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border-right: 2px solid white;
+}
+
+.expense_item_list_ExpenseAction {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
+}
+.edit_input_custom input{
+    width: 80%;
+}

@@ -1,0 +1,41 @@
+.form-control{
+   width: 50%;
+   height: 50px;
+   font-size: 15px;
+   size: 10px;
+  }
+.signup_container{
+    height: 350px;
+    width: 400px;
+   
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 15px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+.error_message{
+    color: red;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    width: 250px;
+    margin-left: 17%;
+    background-color: #ff0000;
+ 
+}
+.login_already{
+    width: 400px;
+    margin-top: 2%;
+    border: 1px solid grey;
+    margin-left: 35%;
+    display: grid;
+    place-items: center;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.login_route_link{
+    display: inline-block;
+}
+.success_message{
+    color: green;
+}
